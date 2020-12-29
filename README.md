@@ -1,6 +1,6 @@
 # Deploying a Production ready React-Express app on AWS
 
-In this tutorial, I will be going over to how to deploy a Javascript app from start to finish using AWS and EC2. Recently, my partner [Tu](https://github.com/tuvo1106) and I launched our app AlgoAcademy (a resource for reviewing algorithms and data structures) and we wanted to share with other developers some of the lessons we learned along the way.
+In this tutorial, I will be going over to how to deploy a Javascript app from start to finish using AWS and EC2. Recently, my team and I need to automate delivery and we wanted to share with other developers some of the lessons we learned along the way.
 
 Following this tutorial, you will have an application that has:
 
@@ -10,7 +10,7 @@ Following this tutorial, you will have an application that has:
 - A custom domain name
 - Continuous deployment with Github Actions/SSM Agent
 
-	We have provided a dummy repo to follow along with [here](https://github.com/rmiyazaki6499/mern-app.git), but feel free to apply it to your own application as necessary.
+	We have provided a dummy repo to follow along with [here](https://github.com/vinaykarora/cd-react-app.git), but feel free to apply it to your own application as necessary.
 
 
 ## Table of Contents
@@ -73,7 +73,7 @@ mern-app
 
 Start by cloning the project with the command:
 ```
-$ git clone https://github.com/rmiyazaki6499/mern-app.git
+$ git clone https://github.com/vinaykarora/cd-react-app.git
 ```
 
 ## Previewing the `mern-app` project with Docker
